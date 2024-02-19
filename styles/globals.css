@@ -2,8 +2,8 @@
 @import url('@tldraw/tldraw/tldraw.css');
 
 
-body{
-  padding:0;
+body {
+  padding: 0;
   margin: 0;
   min-height: 100vh;
 }
@@ -41,7 +41,7 @@ body{
   border-radius: 20px;
   padding: 30px;
   background-color: #ffffff;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 .loginForm {
@@ -85,13 +85,13 @@ body{
   background-color: #45a049;
 }
 
-.buttonlogpage{
+.buttonlogpage {
   display: flex;
   gap: 20px;
-  
+
 }
 
-.viewprojectbox{
+.viewprojectbox {
   display: flex;
   gap: 20px;
   justify-content: space-between;
@@ -102,9 +102,41 @@ body{
 
 }
 
-.viewprojectcard{
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0.1, 0.1); 
+.viewprojectcard {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0.1, 0.1);
   height: 300px;
   border-radius: 25px;
-  background: linear-gradient(90deg, rgb(63, 115, 152) 0%, rgb(53, 103, 146) 35%,  rgb(177, 158, 114)100%);
+  background: linear-gradient(90deg, rgb(63, 115, 152) 0%, rgb(53, 103, 146) 35%, rgb(177, 158, 114)100%);
 }
+
+
+.title {
+  padding-top: 40px;
+  padding-left: 500px;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.maincard {
+
+  height: 300px;
+  width: 400px;
+  background: linear-gradient(90deg, rgb(63, 115, 152) 0%, rgb(53, 103, 146) 35%, rgb(177, 158, 114)100%);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0.1, 0.1);
+  /* border-radius: 25px; */
+}
+
+.heading1{
+  padding-top: 40px;
+  padding-left: 500px;
+  padding-bottom: 40px;
+  
+}
+
+.flow{
+padding-left: 120px;
+padding-top: 120px;
+}
+ .pre{
+  padding-left: 70px;
+ }

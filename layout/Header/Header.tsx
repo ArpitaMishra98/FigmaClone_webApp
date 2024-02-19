@@ -52,8 +52,8 @@ const Header = () => {
                         {
                             userSession && userSession ? (
                                 <>
-
-                                    <Link href={"/"} className='items'>Projects</Link>
+{/* 
+                                    <Link href={"/"} className='items'>Projects</Link> */}
                                     <Link href={"/design"} className='items'>Design</Link>
                                     <a onClick={() => Logout()} className='items' >Logout</a>
                                 </>
